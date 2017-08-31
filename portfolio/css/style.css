@@ -42,8 +42,25 @@ body a {
 }
 
 .icon {
-  font-size: 4em;
   color: #fff;
+}
+
+@media screen and (max-width: 299px) {
+    .icon {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 799px) {
+    .icon {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .icon {
+        font-size: 4em;
+    }
 }
 
 #portfolio {
