@@ -47,19 +47,19 @@ body a {
 
 @media screen and (max-width: 299px) {
     .icon {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 }
 
 @media screen and (min-width: 300px) and (max-width: 799px) {
     .icon {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
 
 @media screen and (min-width: 800px) {
     .icon {
-        font-size: 4em;
+        font-size: 2.5em;
     }
 }
 
