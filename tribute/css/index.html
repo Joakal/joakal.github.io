@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Portfolio</title>
+  <link rel='stylesheet prefetch' href='https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarCollapse" data-offset="50">
+  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <a class="navbar-brand scrollable" href="#">Andreas / Joakal</a>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="nav navbar-nav mr-auto collapse navbar-collapse justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#top">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <section id="top">
+      <div class="row">
+        <div class="col-8">
+          <p class="desc">Aspiring Developer, with self-taught experience in a variety of technologies as a result of love.</p>
+          <hr/>
+          <p class="desc">Web Developer - DevOps</p>
+          <hr/>
+          <p class="desc"><a target='_blank' href="https://www.linkedin.com/in/amarkauskas"><i class="fa fa-linkedin-square icon" aria-hidden="true"></i></a>
+            <a target='_blank' href="https://github.com/joakal"><i class="fa fa-github icon" aria-hidden="true"></i></a>
+            <a target='_blank' href="https://joakal.com"><i class="fa fa-wordpress icon" aria-hidden="true"></i></a>
+            <a target='_blank' href="https://www.freecodecamp.org/joakal"><i class="fa fa-free-code-camp icon" aria-hidden="true"></i></a>
+          </p>
+          </p>
+        </div>
+        <div class="col-4">
+          <img class="img-thumbnail" src="img/hackathon.jpg" alt="Andreas Markauskas picture" />
+          <p class="caption text-center">NASA Hackathon booth shoot</p>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center">Portfolio of work</h2>
+          <hr/>
+          <div class="card-group">
+            <div class="card">
+              <a href="http://planyourcare.tech/"><img class="card-img-top" src="img/planyourcare.jpeg" alt="Planyourcare.tech screenshot"></a>
+              <div class="card-block">
+                <h4 class="card-title"><a href="http://planyourcare.tech/">PlanYourCare.tech</a></h4>
+                <p class="card-text">A website to show ideal locations for childcare based on a combination of government datasets and other datasets as per GovHack requirements.</p>
+                <p>My role was backend (database, AWS and video pitch/editing).</p>
+                <p>Award Categories:
+                  <ul>
+                    <li>Winner of Innovation using NSW Data - Department of Finance, Services and Innovation</li>
+                  </ul>
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">August 2017</small>
+              </div>
+            </div>
+            <div class="card">
+              <a href="../tribute/index.html"><img class="card-img-top" src="img/elonmusk.jpeg" alt="Elon Musk Tribute"></a>
+              <div class="card-block">
+                <h4 class="card-title"><a href="../tribute/index.html">Elon Musk</a></h4>
+                <p class="card-text">A tribute to Elon Musk's work. Generated as part of <a href="https://www.freecodecamp.org/challenges/Build%20a%20Tribute%20Page">freeCodeCamp's Build a Tribute Page</a> challenge.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">August 2017</small>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-block">
+                <h4 class="card-title">Image Category System and Sum of Two Cubes</h4>
+                <p class="card-text">Two take home projects from an interview.
+                <ol>
+                  <li>Develop a website that allow a user to set up categories and view pictures and descriptions. Requirements: Laravel, jQuery, MongoDB and Flickr API. <a href="https://github.com/Joakal/image-category-system">GitHub Source</a></li>
+                  <li>Develop a website that shows whether a number is a sum of two cubes. Requirements: PHP, JS, MongoDB, MySQL stored procedure. <a href="https://github.com/Joakal/sum-of-two">GitHub Source</a></li>
+                </ol>
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Jun 2017</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="card-group">
+            <div class="card">
+
+              <div id="carousel-nasa" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-nasa" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-nasa" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img class="d-block img-fluid mx-auto" src="img/nasawater.png" alt="Screenshot of map of the NASA project">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid mx-auto" src="img/watersimulation.png" alt="Screenshot of early water simulation prototype">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-nasa" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-nasa" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title"><a href="https://2017.spaceappschallenge.org/challenges/planetary-blues/water-water-everywhere/teams/datacake/project">Water, water, everywhere!</a></h4>
+                <p class="card-text">NASA hackathon. Develop a tool that provides emergency management personnel with an up-to-date flood-risk map for an area of interest.</p>
+                <p>My role was setting up the database, porting over data and setting up the hosts. I also helped with research and project design.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Apr 2017</small>
+              </div>
+            </div>
+            <div class="card">
+              <a href="http://sanctionedlist.com"><img class="card-img-top" src="img/sanctionedlist.jpeg" alt="Sanctionedlist.com screenshot"></a>
+              <div class="card-block">
+                <h4 class="card-title"><a href="http://sanctionedlist.com">Sanction Search</a></h4>
+                <p class="card-text">An ease of use website to query the USA's OFAC list from one text box. Fast, simple, partial and fuzzy searches. Minimalist look and responsive design, even on mobile phones. Makes it easy to find out whether a name is on the prohibited persons list that USAs does not allow trades with.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Aug 2016 – Sep 2016</small>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-block">
+                <h4 class="card-title">Best Shopping Prices</h4>
+                <p class="card-text">The website would plot a shopping list of locations to get ingredients or which store(s) was best for a shopping list. The data would come from real-time analysis of people's shopping, thus causing a feedback loop. This project was similar
+                  to the government's <a href="http://www.abc.net.au/news/2009-06-26/govt-pulls-plug-on-grocery-choice-website/1333540">Grocery Choice</a> which came about during project development but has stopped.</p>
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">2010 – 2013</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="card-group">
+
+            <div class="card">
+              <div id="carouselIndicator" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselIndicator" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselIndicator" data-slide-to="1"></li>
+                  <li data-target="#carouselIndicator" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img class="d-block img-fluid mx-auto" src="img/early-hand-fingers.png" alt="Early hand prototype">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>Early hand prototype. I found the grip to be very weak due to mechanics.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid mx-auto" src="img/hand-fingers.png" alt="Latest hand prototype">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>Latest hand prototype. This showed promise, with a stronger grip and greater flexibility that was more closely like a human hand.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid mx-auto" src="img/full-arm.png" alt="Latest full arm prototype">
+                    <div class="carousel-caption d-none d-md-block">
+                      <p>Latest full arm prototype. The bulky look was akin to a giant robotic arm which could lift several kilos, just enough to cook and clean.</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselIndicator" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselIndicator" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title">Kitchen Arm</h4>
+                <p class="card-text">A mechanical arm to prepare and cook meals for you and clean up afterwards. It was based on arduino & pneumatics project. Ideally, it would have worked in conjunction with the Fridge Recipe website.</p>
+                <p>This had a theoretical lift of up to 1.5kg, ideal for lifting pans, pots and plates of food and/or liquids. The non-industrial mechanical arms, especially toy ones can barely lift 100 grams.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">2011</small>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-block">
+                <h4 class="card-title">Fridge Recipes</h4>
+                <p class="card-text">Developed a complex recipe search based on ingredients in fridge. It was meant to help reduce waste. There are similar websites such as <a href="http://supercook.com">Supercook.com</a></p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">2005 – 2009</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+</body>
+
+</html>
